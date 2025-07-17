@@ -4,7 +4,6 @@
 
 - CouchDB Server which configured about CORS for Obsidian and Self-hosted LiveSync.
 - Automatically set up SSL Certificates by Let's Encrypt (With Caddy).
-- **If you do not have any domains, [self-hosted-livesync-server-tailscale](https://github.com/vrtmrz/self-hosted-livesync-server-tailscale) is available!**
 
 ## Requirements 
 
@@ -19,7 +18,7 @@
 
 ## How to Use
 
-1. Clone the repository, `git clone git@github.com:vrtmrz/self-hosted-livesync-server.git`
+1. Clone the repository, `git clone git@github.com:vadim121283/self-hosted-livesync-server.git`
 2. Create Caddy's network: `docker network create caddy`
 3. Configure files  
     1. `caddy.handle_path_1: /e=_/*` on `docker-compose.yml`  
